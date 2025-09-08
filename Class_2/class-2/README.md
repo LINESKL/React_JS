@@ -1,12 +1,9 @@
-# React + Vite
+### Использованные технологии
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект был разработан с помощью следующих инструментов:
 
-Currently, two official plugins are available:
+* **Gemini**
+    * Использовал для получения советов и лучших практик, в частности, для понимания правильных методов работы с изображениями в React-компонентах.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Flowbite & Tailwind CSS**
+    * Применял для быстрой и эффективной стилизации. **Tailwind CSS** предоставил основу для создания собственного дизайна, а **Flowbite** помог с готовыми компонентами, такими как кнопки и формы, что значительно ускорило процесс разработки.
