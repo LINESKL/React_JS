@@ -15,7 +15,7 @@ function TodoList() {
 
     useEffect(() => {
         if (tasks.length > 9) {
-            alert(`У вас более ${tasks.length} задач для выполнения`);
+            alert(`У вас более 10 задач для выполнения`);
         }
     }, [tasks]);
 
