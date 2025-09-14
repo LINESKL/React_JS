@@ -50,7 +50,7 @@ function Timer() {
             <div className="mt-10 flex items-center justify-center flex-col gap-5">
                 <h1 className='text-green-900'>Timer</h1>
                 <span className="countdown text-6xl">
-                    <span style={{ "--value": seconds }} className="" aria-live="polite">{seconds}</span>
+                    <span style={{ "--value": seconds }} className={`timer-value ${seconds < 6 && seconds !== 0 ? "warning" : ""}`} aria-live="polite">{seconds}</span>
                 </span>
                 <div className="flex gap-5 ">
                     <button className="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600" onClick={handleAdd}>+5s</button>

@@ -13,3 +13,11 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+
+.timer-value {
+    transition: color 1s linear; 
+    color: black;
+}
+.timer-value.warning {
+    color: red; 
+}
