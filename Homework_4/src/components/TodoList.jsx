@@ -115,7 +115,7 @@ function TodoList() {
             </button>
         </div>
         
-        <p className="mb-4">Количество задач: {tasks.length}</p>
+        <p className="mb-4">Number of tasks: {tasks.length}</p>
         
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
             <table class="w-full text-sm text-left rtl:text-right text-gray-500">
