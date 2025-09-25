@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="flex items-center flex-col">
-        <h1 className="mt-10 text-green-500">Class 3</h1>
+        <h1 className="mt-10 text-green-500">Classwork 3</h1>
         <TodoList />
       </div>
     </>
