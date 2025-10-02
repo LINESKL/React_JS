@@ -1,4 +1,4 @@
-import {Formik , Form as FormikForm, Field, ErrorMessage} from 'formik';
+import {Formik , Form as FormikForm, Field} from 'formik';
 
 const validate = (values) => {
     const errors = {};
@@ -172,7 +172,14 @@ const FormEx = () => {
                                 )}
                             </div>
                             <div className="flex-1">
-                                <Field name="country" type="text" className={styleField} placeholder="Country" />
+                                <Field name="country" as="select" className={styleField} >
+                                    {["Country","UK", "USA", "KZ"].map(q => (
+                                        <label key={q}>
+                                        <option value={q}>{q}</option>
+                                        </label>
+                                    )
+                                    )}
+                                </Field>
                                 {errors.country && touched.country && (
                                     <div className={errorFiled}>{errors.country}</div>
                                 )}
